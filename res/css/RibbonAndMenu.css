@@ -121,8 +121,6 @@
 
 .button{
     -fx-border-color:-fx-no-selection-color;
-
-
 }
 
 .toggle-button{
@@ -193,19 +191,6 @@
     -fx-background-insets: 0;
     -fx-background-radius: 0;
 }
-
-#toggleImpuritiesVisible{
-    -fx-graphic: "icon/imps-32.png";
-}
-
-#toggleMoveEverythingButton{
-    -fx-graphic: "icon/user-change-32.png";
-}
-
-#changeUserOfTaskButton{
-    -fx-graphic: "icon/user-change-32.png";
-}
-
 
 #optionsButton{
     -fx-graphic: "icon/cog-navy.png";

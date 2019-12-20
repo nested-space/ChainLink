@@ -3,13 +3,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edenrump.controllers.MainWindowController">
+<BorderPane fx:id="contentBase" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.edenrump.controllers.MainWindowController">
    <center>
        <TableView fx:id="linkTableView">
          <columns>
             <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
-            <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="Description" />
-            <TableColumn fx:id="locationColumn" maxWidth="25000.0" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="descriptionColumn" maxWidth="12500.0" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="locationColumn" maxWidth="17500.0" prefWidth="75.0" text="Location" />
          </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

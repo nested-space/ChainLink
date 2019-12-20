@@ -29,9 +29,9 @@ public class ChainLink extends Application {
         loader = new FXMLLoader(getClass().getResource("/fxml/MainWindow.fxml"));
         root = loader.load();
         MainWindowController mainWindowController = loader.getController();
-        mainWindowController.addLinks(getSeedLinks());
+        mainWindowController.setUp(getSeedLinks());
         stage.setTitle(Defaults.APP_NAME);
-        stage.getIcons().setAll(new Image(getClass().getResourceAsStream("/img/knight.png")));
+        stage.getIcons().setAll(new Image(getClass().getResourceAsStream("/img/link.png")));
         stage.setScene(new Scene(root, 600, 300));
         stage.show();
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/QuickNoteMainWindow.fxml"));
